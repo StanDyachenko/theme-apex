@@ -140,14 +140,14 @@
               </div>
             </div>
             <div class="post-body">
-              <p>{% if post.content|striptags|wordcount > 0 %} </p>
+              {% if post.content|striptags|wordcount > 0 %}
               <div class="post-content">
                 {% if post.type == 'link' or post.type == 'webclip' %} <span class="post-link-url"><i class="icon-share"></i> <a href="{{ post.url }}" target="_blank">{{ post.url }}</a></span> {% endif %}
                 {% if post.photos %}
                 {% for photo in post.photos %}
                 {% if photo and loop.index == 1 %}
                 <div class="image">
-                 <p><a href="{{ post.permalink }}"><img src="{{ photo.square_85 }}" alt="Featured Photo" align="left"/></a></p></div>
+                 <p><a href="{{ post.permalink }}"><img src="{{ photo.square_75 }}" alt="Featured Photo" align="left"/></a></p></div>
                  <p class="desc">{{ post.content|striptags|truncate(250) }}</p>
                 {% endif %}
                   {% endfor %}
