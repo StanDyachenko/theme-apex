@@ -461,13 +461,17 @@ div.post ol li {
   font-size: 20px;
   font-weight: 300;
 }
-div.post blockquote {
-  font-size: 22px;
-  line-height: 32px;
+div.post blockquote { /*25.01 - дополнения*/
+  background: url(http://www.brainpickings.org/wp-content/themes/brainpickings_p2h/images/bg-blockquote.gif) no-repeat 0px 0px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
   font-weight: 700;
-  padding: 10px 0 10px 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  word-spacing: 0.2ex;
+  padding: 16px 0px 10px 80px;
+  margin: 0px -20px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 div.post h2,
 div.post h3 {
@@ -494,14 +498,6 @@ div.post ol li {
   line-height: 16pt;
   font-size: 20px;
   font-weight: 300;
-}
-div.post blockquote {
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 700;
-  padding: 10px 0 10px 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 div.post {
   padding: 30px 0 30px 0;
