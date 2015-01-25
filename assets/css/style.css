@@ -189,10 +189,10 @@ body {
 p img { /*25.01 - дополнения*/
 box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.1) inset;
 display: block;
-margin-bottom: 5px;
+margin-top: 20px;
 margin-left: auto;
 margin-right: auto;
-margin-top: 5px;
+margin-bottom: 20px;
 padding-bottom: 0;
 padding-left: 0;
 padding-right: 0;
