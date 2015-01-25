@@ -147,7 +147,7 @@
                 {% if photo and loop.index == 1 %}
                  <p class="desc">
 				 <img src="{{ photo.square_75 }}" alt="Featured Photo" width="400"/>
-				<!-- {{ post.content|striptags|truncate(250) }}--></p>
+				 {{ post.content|truncate(250) }}</p>
                 {% endif %}
                   {% endfor %}
                 {% endif %}
