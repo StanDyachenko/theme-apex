@@ -141,6 +141,9 @@
             </div>
             <div class="post-body" data-type-cleanup="true">
               {{ post.content }}
+			  {% if post.type == 'link' or post.type == 'webclip' %}
+              <span class="post-link-url"><i class="icon-share"></i> <a href="{{ post.url }}" target="_blank">{{ post.url }}</a></span>
+               {% endif %}
             </div>
             <div class="post-info">
               <div class="info-left">
