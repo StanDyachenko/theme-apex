@@ -392,8 +392,9 @@ div.header a.logo {
   position: relative;
   width: 85px;
   height: 85px;
+ /*25.01 - дополнения - обводка лого  
   border: 10px solid #ffffff;
-  background-color: #000000;
+  background-color: #000000; */
   margin: 0 auto;
   margin-top: 80px;
   text-align: center;
