@@ -62,7 +62,7 @@
       <div class="span4 header">
       <div class="bg-img" style="background-image: url('{% if site.cover_photo %}{{ site.cover_photo }}{% else %}{{ assets('images/background.jpg') }}{% endif %}');"></div>     
 	   <!-- <div class="gradient"></div>-->
-        <div class="title">
+       <div class="title">
           <h1>{{ site.name }}</h1>
           <ul class="social">
             {% if site.twitter %}
@@ -141,7 +141,7 @@
             </div>
             <div class="post-body">
               {% if post.content|striptags|wordcount > 0 %}
-              <div class="post-content">
+              
                 {% if post.photos %}
                 {% for photo in post.photos %}
                 {% if photo and loop.index == 1 %}
@@ -151,7 +151,7 @@
                 {% endif %}
                   {% endfor %}
                 {% endif %}
-              </div>           
+                 
               {% endif %} </div>
             <div class="post-info">
               <div class="info-left">
