@@ -148,9 +148,7 @@
                 {% if photo and loop.index == 1 %}
                 <div class="image">
                   <p><a href="{{ post.permalink }}"><img src="{{ photo.square_75 }}" alt="Featured Photo" align="middle"/></a></p></div>
-                
                 <p class="desc">{{ post.content|striptags|truncate(250) }}</p>
-                <p><a href="{{ post.permalink }}">Читать дальше</a></p>
                 {% endif %}
                   {% endfor %}
                 {% endif %}
