@@ -472,6 +472,7 @@ div.post blockquote { /*25.01 - дополнения*/
   margin: 0px -20px 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  border-left: transparent;
 }
 div.post h2,
 div.post h3 {
@@ -569,11 +570,12 @@ div.post div.post-body .post-content table {
   margin: 0;
   padding: 0;
 }
-div.post div.post-body .post-content blockquote {
+/*div.post div.post-body .post-content blockquote {
   padding: 7.5px 15px;
   margin: 7.5px 0;
   border-left: 5px solid #e5e5e5;
 }
+*/
 div.post div.post-body .post-content ul {
   padding: 7.5px 0 11.25px;
   margin-left: 50px;
