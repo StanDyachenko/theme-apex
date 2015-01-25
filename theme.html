@@ -140,8 +140,9 @@
               </div>
             </div>
             <div class="post-body">
-              {{ post.content }}		 
+              {{ post.content|truncate(450) }}		 
 			</div>
+			{% endif %}
             <div class="post-info">
               <div class="info-left">
                 <p class="date">{{ post.created_at|format_date }}</p>
