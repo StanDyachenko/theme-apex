@@ -145,9 +145,9 @@
                 {% if post.photos %}
                 {% for photo in post.photos %}
                 {% if photo and loop.index == 1 %}
-         
-                 <p><img src="{{ photo.square_75 }}" alt="Featured Photo" align="left"/></p>
-                 <p class="desc">{{ post.content|striptags|truncate(250) }}</p>
+                 <p class="desc">
+				 <img src="{{ photo.square_75 }}" alt="Featured Photo" width="400"/>
+				 {{ post.content|striptags|truncate(250) }}</p>
                 {% endif %}
                   {% endfor %}
                 {% endif %}
