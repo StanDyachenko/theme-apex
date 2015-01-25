@@ -145,9 +145,8 @@
                 {% if post.photos %}
                 {% for photo in post.photos %}
                 {% if photo and loop.index == 1 %}
-                <div class="image">
-                 <a href="{{ post.permalink }}"><img src="{{ photo.square_75 }}" alt="Featured Photo" align="left"/></a>
-				 </div>
+         
+                 <p><img src="{{ photo.square_75 }}" alt="Featured Photo" align="left"/></p>
                  <p class="desc">{{ post.content|striptags|truncate(250) }}</p>
                 {% endif %}
                   {% endfor %}
