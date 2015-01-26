@@ -144,7 +144,7 @@
 			{% if post.photos %}
                 {% for photo in post.photos %}
                 {% if photo and loop.index == 1 %}
-				<a href="{{ post.permalink }}"><img src="{{ photo.square_75 }}" alt="Featured Photo" align="middle"/></a></p>
+				<a href="{{ post.permalink }}"><img src="{{ photo.square_75 }}" alt="Featured Photo" width="450px" align="middle"/></a></p>
 			</div>
 			{% endif %}
                   {% endfor %}
