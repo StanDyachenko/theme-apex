@@ -435,12 +435,12 @@ div.header:after {
 div.posts {
   padding-top: 95px;
 }
-div.post h2,
+/* 01.02.15 div.post h2,
 div.post h3 {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0;
-  line-height: default;
+  line-height: default; */
 }
 div.post h3 {
   font-size: 22px;
@@ -482,7 +482,9 @@ div.post h3 {
   line-height: default;
 }
 div.post h3 {
+  background: yellow;
   font-size: 22px;
+  box-shadow: 10px 0 0 yellow, -10px 0 0 yellow;
 }
 div.post p {
   font-size: 20px;
