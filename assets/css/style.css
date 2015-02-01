@@ -9,7 +9,7 @@ font-family: 'Lobster', cursive;
 font-family: 'Open Sans Condensed', sans-serif; */
 @font-face {
 	font-family: 'Intro';
-	src: url(/Intro.otf);
+	src: url(assets/Intro.otf);
 }
 /*---------------------------------------------------
     LESS Elements 0.9.1
