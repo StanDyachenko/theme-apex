@@ -186,7 +186,7 @@ html {
 body {
   background: #F6F6F5; /*25.01 - дополнения*/
   line-height: 1.65;
-  font-family: 'Lora', serif;
+  font-family: 'Lora', serif, Intro;
   height: 100%;
   width: 100%;
 }
