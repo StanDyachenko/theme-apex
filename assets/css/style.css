@@ -482,9 +482,7 @@ div.post h3 {
   line-height: default;
 }
 div.post h3 {
-  background: yellow;
   font-size: 22px;
-  box-shadow: 10px 0 0 yellow, -10px 0 0 yellow;
 }
 div.post p {
   font-size: 20px;
@@ -691,6 +689,8 @@ div.post h2 {
 }
 div.post h2 a {
   color: #000000;
+  background: yellow;
+  box-shadow: 10px 0 0 yellow, -10px 0 0 yellow;
 }
 div.post h2 a:hover {
   color: #1abc9c;
