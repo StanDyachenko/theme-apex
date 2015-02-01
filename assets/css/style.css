@@ -272,6 +272,9 @@ a:hover {
   text-decoration: none;
   color: #1abc9c;
 }
+h2 {
+  line-height: 43px;
+}
 div.header {
   position: fixed;
   top: 0;
