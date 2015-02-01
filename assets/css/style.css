@@ -393,8 +393,8 @@ div.header div.site-description ul li a.active {
 div.header a.logo {
   display: block;
   position: relative;
-  width: 85px;
-  height: 85px;
+  width: 150px;
+  height: 150px;
  /*25.01 - дополнения - обводка лого  
   border: 10px solid #ffffff;
   background-color: #000000; */
