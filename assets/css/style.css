@@ -3,6 +3,10 @@
 @import url(http://postach.io/static/themes/_assets/fontawesome/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@font-face {
+    font-family: Intro; 
+    src: url(assets/fonts/Intro.otf);
+   }
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
@@ -383,8 +387,10 @@ div.header div.site-description ul li {
   padding-bottom: 14px;
 }
 div.header div.site-description ul li a {
-  color: #fff;
+  font-family: Intro; 
   font-size: 14px;
+  color: #000;
+  
 }
 div.header div.site-description ul li a:hover,
 div.header div.site-description ul li a.active {
