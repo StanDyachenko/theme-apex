@@ -10,7 +10,7 @@ font-family: 'Open Sans Condensed', sans-serif; */
 @font-face {
 	font-family: 'Intro';
 	src: local("Intro"),
-	url(assassets\fonts\Intro.otf);
+	url(assets\fonts\Intro.otf);
 }
 /*---------------------------------------------------
     LESS Elements 0.9.1
