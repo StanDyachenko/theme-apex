@@ -3,10 +3,11 @@
 @import url(http://postach.io/static/themes/_assets/fontawesome/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
-@font-face {
-    font-family: Intro; 
-    src: url(assets/fonts/Intro.otf);
-   }
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Lobster|Open+Sans+Condensed:300,700&subset=latin,cyrillic); 
+/*font-family: 'Poiret One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans Condensed', sans-serif; */
+@import url(https://github.com/StanDyachenko/theme-apex/raw/master/assets/fonts/Intro.otf);
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
