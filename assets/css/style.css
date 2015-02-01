@@ -190,7 +190,7 @@ html {
 body {
   background: #F6F6F5; /*25.01 - дополнения*/
   line-height: 1.65;
-  font-family: 'Lora', serif, InIntroCondLightFree;
+  font-family: 'Lora', serif, IntroCondLightFree;
   height: 100%;
   width: 100%;
 }
