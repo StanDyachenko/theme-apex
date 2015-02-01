@@ -7,7 +7,10 @@
 /*font-family: 'Poiret One', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Open Sans Condensed', sans-serif; */
-@import url(https://github.com/StanDyachenko/theme-apex/raw/master/assets/fonts/Intro.otf);
+@font-face {
+	font-family: Intro;
+	src: url(https://github.com/StanDyachenko/theme-apex/raw/master/assets/fonts/Intro.otf');
+}
 /*---------------------------------------------------
     LESS Elements 0.9.1
   ---------------------------------------------------
